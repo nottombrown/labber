@@ -1,0 +1,70 @@
+body{
+    font-family: 'Myriad Pro', 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+.label{
+    font-weight:bold;
+    color:#0066CC;
+}
+#container{
+	position:fixed;
+	left:45px;
+	bottom:30px;
+	opacity:0.9;
+	background-color: #FFF;
+	padding:20px 10px 0px 10px;
+	border-radius:15px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	padding-top:20px;
+}
+#search_button{
+	cursor:pointer;
+}
+
+#legend{
+    padding:0px;
+    height:19px;
+	position:absolute;
+	top:-10px;
+	left:15px;
+	width:120px;
+	background-color: #0066CC;
+	color:#FFF;
+	text-align:center;
+	font-weight:bold;
+}
+#legend_title{
+    position:relative;
+    top:1px;
+    width:inherit;
+}
+#map_canvas{
+	height:100%
+}
+#search_form{
+	position:relative;
+}
+#graph_container{
+    position:relative;
+    display:block;
+}
+#footer{
+    margin-top:8px;
+    text-align:center;
+    width:inherit;
+}
+.ui-button{
+    font-size:10px;
+}
+#search_area{
+    position:relative;
+    margin-top:5px;
+}    
+#display_type_area{
+        position:relative;
+        margin-top:10px;
+}
+#languages{
+    position:relative;
+    display:inline-block;
+}
