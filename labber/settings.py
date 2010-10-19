@@ -69,7 +69,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.auth.middleware.AuthenticationMiddleware',
 )
 
-ROOT_URLCONF = 'urls'
+ROOT_URLCONF = 'labber.urls'
 
 TEMPLATE_DIRS = (
     ROOT_DIR + "tmplts/",
@@ -83,8 +83,6 @@ TEMPLATE_CONTEXT_PROCESSORS = (
      'django.core.context_processors.i18n',
      'django.core.context_processors.request',
      'django.core.context_processors.media',
-     'zinnia.context_processors.media',
-     'zinnia.context_processors.version', # Optional
   )
 
 INSTALLED_APPS = (
@@ -96,5 +94,5 @@ INSTALLED_APPS = (
     'django.contrib.admin', 
     'django.contrib.comments',
     'django.contrib.markup',
-    'lablist'  
+    'lablist'
 )
